@@ -1,0 +1,30 @@
+<div id="main">
+			<?php 
+				include("sidebar.php");
+			 ?>
+			<div class="maincontent">
+				<?php 
+				if(isset($_GET['content'])){
+					$temp=$_GET['content'];
+				}
+				else{
+					$temp='';
+				}
+				if($temp=='category'){
+					include("main/category.php");
+				}elseif($temp=='sanpham'){
+					include("main/sanpham.php");
+				}elseif($temp=='signup'){
+					include("main/signup.php");
+				}elseif($temp=='login'){
+					include("main/login.php");
+				}elseif($temp=='profile'){
+					include("main/profile.php");
+				}elseif($temp=='search'){
+					include("main/search.php");
+				}else{
+					include("main/index.php");
+				}
+				?>
+			</div>
+</div>

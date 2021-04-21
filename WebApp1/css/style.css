@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	border:1px solid #ffffff;
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+.wrapper_chitiet{
+	height: auto;
+	width: 90%;
+	margin:0 auto;
+}
+.hinhanhsanpham{
+	float:left;
+	width: 60%;
+}
+.header{
+	border:1px solid #ffffff;
+	height: 180px;
+	width: 100%;
+	background-image: url("../images/banner_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 180px;
+}
+.menu{
+	border:1px solid #85e085;
+	height: 70px;
+	width: 100%;
+	background:#85e085;
+	font-size: 20px;
+	font-weight: bold;
+}
+ul.list_menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.list_menu li{
+	float: left;
+	margin: 10px;
+	padding: 3px;
+}
+ul.list_menu li:hover{
+	background:burlywood;
+}
+ul.list_menu li a{
+	text-decoration: none;
+	text-align: center;
+	color: #003380;
+}
+#main{
+	border:1px solid #cc3333;
+	height: auto;
+	width: 100%;
+	
+}
+.sidebar{
+	border:1px solid #floralwhite;
+	height: 370px;
+	width: 20%;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+	font-size: 18px;
+	background: floralwhite;
+	font-weight: bold;
+}
+ul.list_sidebar{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+ul.list_sidebar li{
+	margin: 10px;
+	padding: 3px;
+}
+ul.list_sidebar li:hover{
+	background:cadetblue;
+}
+ul.list_sidebar li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.maincontent{
+	border:1px solid #aliceblue;
+	height: auto;
+	width: 79%;
+	margin-top: 5px;
+	margin-left: 3px;
+	float: right;
+	background: aliceblue;
+}
+ul.product_list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+}
+ul.product_list li{
+	width: 22%;
+	border: 1px solid #ddd;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	background: #b3cbcb;
+	height: 320px;
+}
+ul.product_list li a{
+	
+}
+ul.product_list li img {
+    width: 100%;
+    height: 180px;
+}
+p.title_product{
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}
+p.price{
+	text-align: center;
+	font-size: 18px;
+	color: #ff0000;
+}
+.clear{
+	clear: both;
+}
+.clear_sanpham{
+	clear: both;
+}
+.footer{
+	border:1px solid  #5FF3DF;
+	height: 100px;
+	width: 100%;
+	background: #5FF3DF;
+}
+p.footer_copyright{
+	text-align: center;
+	font-size: 20px;
+}
